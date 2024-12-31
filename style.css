@@ -114,7 +114,7 @@ header{
     background: #000000;
     padding: 8px 22px;
     border-radius: 15px;
-    border: 1px solid #ff7504;
+    border: 1px solid #000000;
     color: #fff;
     font-weight: 700;
     cursor: pointer;
@@ -316,7 +316,8 @@ footer{
 
     .nav_links{
         flex-direction: column; 
-        width: 90%; 
+        width: 90%;
+        left: 10px;
     }
 
     .inner_anasayfa{
