@@ -24,7 +24,7 @@ section{
 }
 
 .section_title h2{
-    position: relative;
+    /*position: relative;*/
     text-align: center;
     color: #ffffff;
     font-size: 30px;
