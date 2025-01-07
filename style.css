@@ -24,7 +24,7 @@ section{
 }
 
 .section_title h2{
-    /*position: relative;*/
+    position: relative;
     text-align: center;
     color: #ffffff;
     font-size: 30px;
@@ -39,7 +39,7 @@ section{
 
 header{
     background: #000000;
-    border-bottom: 1px solid rgba(171, 228, 242, 0.801);
+    border-bottom: 1px solid rgba(15, 127, 202, 0.801);
     position: fixed;
     width: 100%;
     z-index: 5;
@@ -70,7 +70,7 @@ header{
     transition: all .5s ease-in-out;
 }
 .nav_links li a:hover{
-    background: #000000;
+    background: #019c1b;
 }
 
 .logo h2 a{
@@ -112,9 +112,9 @@ header{
 
  .btn {
     background: #000000;
-    border: 1px solid #F39C12;
     padding: 8px 22px;
     border-radius: 15px;
+    border: 1px solid #000000;
     color: #fff;
     font-weight: 700;
     cursor: pointer;
@@ -165,7 +165,7 @@ header{
     padding: 20px;
     border-radius: 10px;
     width: 250px;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
@@ -194,9 +194,9 @@ header{
     padding: 20px;
     border-radius: 10px;
     width: 250px;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: #ffffff;
 }
 
 .inner_projelerim li a {
@@ -316,8 +316,7 @@ footer{
 
     .nav_links{
         flex-direction: column; 
-        width: 90%;
-        left: 10px;
+        width: 90%; 
     }
 
     .inner_anasayfa{
@@ -359,4 +358,4 @@ footer{
     .child_iletişim form{
         padding: 30px 20px;
     }
-
+}
